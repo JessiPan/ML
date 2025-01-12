@@ -44,4 +44,4 @@ def compute_gradient(X, y, w, b):
 
 ## compare between 1 feature & n feature
 
-![alt text](5ce3d21dad2b2c38a49f31cda88afaa.jpg)
+![alt text](<comparison between 1 and n feature.jpg>)
