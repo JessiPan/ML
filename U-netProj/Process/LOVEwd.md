@@ -1,21 +1,21 @@
 # LOVEwd
-![alt text](../Dataset/VOC/image-2.png)
-## classes去掉grass：9（暂不知道原因）
-```
-    # Total class: 10 ('Background':0, 'Building-flooded':1, 'Building-non-flooded':2, 'Road-flooded':3, 'Road-non-flooded':4, 'Water':5, 'Tree':6, 'Vehicle':7, 'Pool':8).
-```
-## 像素点的值与数量。
+## 数据集大小
+The LoveDA
+ contains 5987 HSR images with 166768 annotated objects from Nanjing, Changzhou and Wuhan cities. 
+ 
+ There are 2713 images for urban scenes and 3274 images for rural scenes.
 
-| Key | Value |
-|-----|-------|
-| 0   | 163415419 |
-| 1   | 110326677 |
-| 2   | 209899042 |
-| 3   | 157610916 |
-| 4   | 429103412 |
-| 5   | 814890623 |
-| 6   | 1316258879 |
-| 7   | 12436766 |
-| 8   | 13086670 |
+![alt text](image-8.png)
+## 灰度图的像素点
+```
+no-data regions - 0
+background – 1, 
+building – 2, red
+road – 3,
+water – 4, dark blue
+barren – 5, yellow
+forest – 6, cyan
+agriculture – 7. green
+```
 
 
