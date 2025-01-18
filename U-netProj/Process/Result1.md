@@ -6,17 +6,42 @@
 
 ## 像素点的值与数量。
 
-| Key | Value |
-|-----|-------|
-| 0   | 163415419 |
-| 1   | 110326677 |
-| 2   | 209899042 |
-| 3   | 157610916 |
-| 4   | 429103412 |
-| 5   | 814890623 |
+| Key | Value      |
+| --- | ---------- |
+| 0   | 163415419  |
+| 1   | 110326677  |
+| 2   | 209899042  |
+| 3   | 157610916  |
+| 4   | 429103412  |
+| 5   | 814890623  |
 | 6   | 1316258879 |
-| 7   | 12436766 |
-| 8   | 13086670 |
+| 7   | 12436766   |
+| 8   | 13086670   |
+
+## 参数
+Configurations:
+| keys                | values                      |
+| ------------------- | --------------------------- |
+| num_classes         | 8                           |
+| backbone            | vgg                         |
+| model_path          | model_data/unet_vgg_voc.pth |
+| input_shape         | [512, 512]                  |
+| Init_Epoch          | 0                           |
+| Freeze_Epoch        | 50                          |
+| UnFreeze_Epoch      | 100                         |
+| Freeze_batch_size   | 2                           |
+| Unfreeze_batch_size | 2                           |
+| Freeze_Train        | True                        |
+| Init_lr             | 0.0001                      |
+| Min_lr              | 1.0000000000000002e-06      |
+| optimizer_type      | adam                        |
+| momentum            | 0.9                         |
+| lr_decay_type       | cos                         |
+| save_period         | 5                           |
+| save_dir            | logs                        |
+| num_workers         | 2                           |
+| num_train           | 3771                        |
+| num_val             | 420                         |
 
 ## 25/1/13/16：01运行前的权值文件    
 ![alt text](image-4.png)

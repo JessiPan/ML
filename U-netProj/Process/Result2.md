@@ -1,8 +1,6 @@
 ## 数据集
-Generate txt in ImageSets.
 train and val size 4191
 traub suze 3771
-Generate txt in ImageSets done.
 
 ## 分类
 | Key | Value      |
